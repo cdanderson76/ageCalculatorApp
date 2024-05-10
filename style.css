@@ -16,3 +16,54 @@ img {
 body {
   background-color: burlywood;
 }
+
+#canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 812px;
+  border: 2px solid black;
+  padding-top: 88px;
+  padding-left: 16px;
+  background-color: whitesmoke;
+}
+
+#mini-card {
+  width: 343px;
+  height: 486px;
+  border: 2px solid black;
+  background-color: lightslategray;
+  padding-top: 48px;
+  padding-left: 24px;
+}
+
+.date-box {
+  width: 295px;
+  height: 76px;
+  border: 2px black solid;
+  background-color: skyblue;
+}
+
+.arrow-box {
+  width: 295px;
+  height: 64px;
+  border: 2px solid black;
+  margin-top: 32px;
+  background-color: skyblue;
+}
+
+.results-box {
+  width: 295px;
+  height: 186px;
+  border: 2px black solid;
+  margin-top: 32px;
+  background-color: skyblue;
+}
