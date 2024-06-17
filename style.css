@@ -67,3 +67,10 @@ body {
   margin-top: 32px;
   background-color: skyblue;
 }
+
+@media (min-width: 760px) {
+  #card {
+    width: 840px;
+    height: 651px;
+  }
+}
